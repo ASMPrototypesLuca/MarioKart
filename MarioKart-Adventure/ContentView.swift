@@ -60,7 +60,7 @@ struct ContentView: View {
 
 struct NewScreenView: View {
     var body: some View {
-        VStack {
+        VStack (spacing: 20){
             Text("Mario Kart")
                 .font(.largeTitle)
                 .fontWeight(.bold)
