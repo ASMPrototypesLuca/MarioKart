@@ -44,7 +44,7 @@ struct ContentView: View {
                     .lineLimit(1)
                     .padding()
                 Spacer()
-                NavigationLink(destination: NewScreenView()) {
+                NavigationLink(destination: MenuScreen()) {
                     Text("Start")
                         .font(.title)
                         .fontWeight(.semibold)
@@ -58,7 +58,7 @@ struct ContentView: View {
     }
 }
 
-struct NewScreenView: View {
+struct MenuScreen: View {
     var body: some View {
         VStack (spacing: 20){
             Text("Mario Kart")
