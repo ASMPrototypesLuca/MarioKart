@@ -33,8 +33,18 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                Text("Welcome to")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding()
+                Text("Mario Kart - Outdoor Adventure")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .minimumScaleFactor(0.5)
+                    .lineLimit(1)
+                    .padding()
                 Spacer()
-                NavigationLink(destination: NewScreenView()) {
+                NavigationLink(destination: MenuScreen()) {
                     Text("Start")
                         .font(.title)
                         .fontWeight(.semibold)
@@ -48,10 +58,13 @@ struct ContentView: View {
     }
 }
 
-struct NewScreenView: View {
+struct MenuScreen: View {
     var body: some View {
-        VStack {
-            Text("Mario Kart Outdoor Adventure")
+        VStack (spacing: 20){
+            Text("Mario Kart")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            Text("Outdoor Adventure")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding()
@@ -112,5 +125,11 @@ struct NewScreenView: View {
             }
             Spacer()
         }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
