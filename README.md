@@ -5,7 +5,7 @@
 
 <table align="center" class="no-border" >
   <tr>
-    <td>Mario Kart: <img src="https://github.com/Luca-Bulles/MarioKart/actions/workflows/ios.yml/badge.svg" alt="C# Mario Kart health"/></td>
+    <td>Mario Kart: <img src="https://github.com/ASMPrototypesLuca/MarioKart/actions/workflows/ios.yml/badge.svg" alt="C# Mario Kart health"/></td>
   </tr>
 </table> 
  
