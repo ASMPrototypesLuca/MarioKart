@@ -8,3 +8,4 @@
     <td>Mario Kart: <img src="https://github.com/Luca-Bulles/MarioKart/actions/workflows/ios.yml/badge.svg" alt="C# Mario Kart health"/></td>
   </tr>
 </table> 
+ 
