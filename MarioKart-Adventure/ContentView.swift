@@ -50,7 +50,7 @@ struct ContentView: View {
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.green)
                         .cornerRadius(40)
                 }
             }
@@ -59,6 +59,7 @@ struct ContentView: View {
 }
 
 struct MenuScreen: View {
+    let lightBlue = Color(red: 0, green: 128, blue: 128)
     var body: some View {
         VStack (spacing: 20){
             Text("Mario Kart")
@@ -71,7 +72,7 @@ struct MenuScreen: View {
             Button(action: {
                 // Do something
             }) {
-                Text("Practice")
+                Text("Singleplayer mode")
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
@@ -82,23 +83,23 @@ struct MenuScreen: View {
             Button(action: {
                 // Do something
             }) {
-                Text("Multiplayer")
+                Text("Multiplayer mode")
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.blue)
+                    .background(Color.red)
                     .cornerRadius(40)
             }
             Button(action: {
                 // Do something
             }) {
-                Text("Friends")
+                Text("Friends & Requests")
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.blue)
+                    .background(Color.green)
                     .cornerRadius(40)
             }
             Button(action: {
@@ -109,7 +110,7 @@ struct MenuScreen: View {
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.blue)
+                    .background(lightBlue)
                     .cornerRadius(40)
             }
             Button(action: {
@@ -120,7 +121,7 @@ struct MenuScreen: View {
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.blue)
+                    .background(Color.purple)
                     .cornerRadius(40)
             }
             Spacer()
